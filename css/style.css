@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s ease;
+}
+
+/***************
+ global css
+ **************/
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.vh-100{
+    height: 100vh;
+    width: 100%;
+}
+
+
+/*********************
+ header section start
+ *********************/
+
+.header-section{
+    width: 100%;
+    padding: 30px 0;
+}
+.header-section .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-section .nav .logo{}
+.header-section .nav .logo a{}
+.header-section .nav .logo a img{
+    width: 140px;
+}
+
+
+.header-section .nav .menu{}
+.header-section .nav .menu ul{
+    list-style: none;
+    display: inline-block;
+}
+.header-section .nav .menu ul li{
+    display: inline-block;
+}
+.header-section .nav .menu ul li a{
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+}
+.header-section .nav .menu ul li a:hover{
+    color: green;
+}
+.header-section .nav .menu button{
+    padding: 12px 30px;
+    background: #008d52;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.header-section .nav .menu button:hover{
+    background: #016a3e;
+}
+
+
+/*********************
+ banner section start
+ *********************/
+.banner-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.banner-section .overlay{
+    background: #00000073;
+}
+.banner-section .banner{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.banner-section .banner .banner-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    width: 100%;
+}
+.banner-section .banner .banner-content h3{font-size: 24px;color: white;margin-bottom: 20px;}
+.banner-section .banner .banner-content .line{
+    height: 2px;
+    width: 110px;
+    background: white;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.banner-section .banner .banner-content h1{
+    color: white;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+.banner-section .banner .banner-content button{
+    padding: 12px 30px;
+    background: #008d52;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.banner-section .banner .banner-content button:hover{
+    background: #016a3e;
+}
+
+
+
+/*********************
+ comment section start
+ *********************/
+
+.comment-section{
+    color: #5c6461;
+    text-align: center;
+    padding: 75px;
+    background: #f3faf7;
+    width: 100%;
+}
+.comment-section p{
+    margin-bottom: 26px;
+    font-style: italic;
+}
+.comment-section span{}
+
+
+
+/*********************
+ event section start
+ *********************/
+
+.event-section{
+    width: 100%;
+    padding: 80px 0;
+}
+.event-section h1{
+    margin-bottom: 30px;
+    color: #26312c;
+    font-size: 32px;
+    text-align: center;
+}
+.event-section .content-box{
+    display: flex;
+}
+.event-section .content-box .content{
+    flex-basis: 50%;
+    padding: 45px;
+    text-align: center;
+}
+.event-section .content-box .content img{
+    width: 100%;
+}
+.event-section .content-box .content h3{
+    color: #26312c;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.event-section .content-box .content p{
+    color: #26312c;
+    margin-bottom: 25px;
+}
+.event-section .content-box .content button{
+    padding: 12px 30px;
+    background: #008d52;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.event-section .content-box .content button:hover{
+        background: #016a3e;
+}
+
+/*********************
+ event section start
+ *********************/
+.explore{
+    height: 70vh;
+    background: url(../img/section-bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+}
+.explore .overlay{
+    width: 100%;
+    height: 100%;
+    background: #00000073;
+    position: absolute;
+    top: 0;
+}
+.explore .content-box{
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    z-index: 9999;
+}
+.explore .content-box .content{
+    flex-basis: 50%;
+    z-index: 9999;
+}
+.explore .content-box .content h1{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.explore .content-box .content .line-2{
+    width: 100%;
+    height: 3px;
+    background: white;
+    margin-bottom: 24px;
+}
+.explore .content-box .content p{
+    color: white;
+    margin-bottom: 26px;
+}
+.explore .content-box .content button{
+    padding: 12px 30px;
+    background: #008d52;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.explore .content-box .content button:hover{
+    background: #016a3e;
+}
+
+
+/*********************
+ gallery section start
+ *********************/
+
+.gallery{
+    padding: 100px 0;
+    width: 100%;
+}
+.gallery .content-box{
+    display: flex;
+    align-items: center;
+}
+.gallery .content-box .left{
+    flex-basis: 35%;
+}
+.gallery .content-box .left h1{
+    color: #26312c;
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.gallery .content-box .left p{
+    color: #26312c;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.gallery .content-box .left button{
+    padding: 12px 30px;
+    background: #008d52;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.gallery .content-box .left button:hover{
+    background: #016a3e;
+}
+
+.gallery .content-box .right{
+    flex-basis: 65%;
+}
+.gallery .content-box .right .img-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.gallery .content-box .right .img-container .img-box{
+    padding: 10px;
+}
+.gallery .content-box .right .img-container .img-box img{
+    width: 100%;
+}
+
+
+/*********************
+ footer section start
+ *********************/
+
+.footer{
+    background: #191919;
+    padding: 28px;
+    text-align: center;
+    width: 100%;
+}
+.footer p{
+    color: #d3d3d3;
+    line-height: 2;
+}
